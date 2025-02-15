@@ -1,5 +1,6 @@
-#!bin/sh
+#!/bin/bash
 
 helm package charts/*
 
-helm repo index --url https://ricristian.github.io/wakapi-helm-chart .
+helm repo index --url https://wrightbradley.github.io/wakapi-helm-chart .
+
